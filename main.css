@@ -1,4 +1,10 @@
 
+
+.done-true {
+  text-decoration: line-through;
+  color: grey;
+}
+
 @font-face {
   font-family: 'Raleway';
   font-weight: normal;
@@ -66,6 +72,11 @@ h3 {
   font-weight: 100;
   font-size: 21px;
   letter-spacing: 2px;
+}
+
+
+.tail-template{
+  padding: 20px 0px 40px 0px;
 }
 
 .tail-template p{
