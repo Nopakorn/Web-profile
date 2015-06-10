@@ -1,11 +1,5 @@
-
-
-.done-true {
-  text-decoration: line-through;
-  color: grey;
-}
-
 @font-face {
+
   font-family: 'Raleway';
   font-weight: normal;
   font-style: normal;
@@ -66,6 +60,7 @@ h3 {
 
 .starter-template h1{
   font-weight: 400;
+  font-size: 31px;
 }
 
 .starter-template h2{
@@ -94,3 +89,16 @@ h3 {
    height: 400px;
 }
 
+
+
+img{
+  width: 40px;
+  height: 40px;
+}
+.img-social:hover {
+  opacity:0.5;
+}
+.grayscale {-webkit-filter: grayscale(100%)}
+/*.drawing-space:hover {
+  color: white; background-color: black; text-shadow: none;
+}*/
