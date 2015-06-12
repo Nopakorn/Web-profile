@@ -17,7 +17,9 @@ body {
   text-shadow: 1px 1px 1px rgba(0,0,0,.004);
   overflow-x: hidden;
 
+
 }
+
 /*HEADER*/
 .header-template {
   padding: 40px 15px;
@@ -34,18 +36,28 @@ body {
 }
 
 
-.b-header.page-header{
+.b-header{
     top: 0;
     left: 0;
     width: 100%;
-    background:black;
-    height: 400px;
+    height: 600px;
     margin-top: 0px;
     background-image: url(img/moutain-bg.jpg);
     background-position:center;
-     -webkit-background-size: cover;
+    -webkit-background-size: cover;
+    -webkit-transition: height 0.5s linear 0s;
+    overflow: hidden;
 
 }
+
+.page-header.b-header.slideClosed{
+   -webkit-transition: height 0.5s linear 0s;
+   height: 0px;
+   margin-bottom: 100px;
+}
+
+
+
 
 
 /*section (container)*/
@@ -76,6 +88,7 @@ h3 {
 
 .tail-template{
   padding: 20px 0px 40px 0px;
+
 }
 
 
@@ -126,10 +139,8 @@ h3 {
    height: 400px;
 }
 
-
-
-
 .img-social:hover {
   opacity:0.5;
 }
+
 .grayscale {-webkit-filter: grayscale(100%)}
