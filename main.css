@@ -50,15 +50,6 @@ body {
 
 }
 
-.page-header.b-header.slideClosed{
-   -webkit-transition: height 0.5s linear 0s;
-   height: 0px;
-   margin-bottom: 100px;
-}
-
-
-
-
 
 /*section (container)*/
 h1,
