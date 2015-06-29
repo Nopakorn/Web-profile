@@ -166,6 +166,7 @@ UpgradeLog*.htm
 App_Data/*.mdf
 App_Data/*.ldf
 
+
 #############
 ## Windows detritus
 #############
@@ -181,8 +182,13 @@ Desktop.ini
 $RECYCLE.BIN/
 
 # Mac crap
-.DS_Store
 
+.DS_Store
+node_modules
+dist
+.tmp
+.sass-cache
+bower_components
 
 #############
 ## Python
@@ -214,3 +220,4 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+css/main.css
