@@ -1,15 +1,39 @@
 @import "bower_components/bootstrap/less/bootstrap.less";
+//@import './fonts/raleway';
+@import './layout';
+
+@import url(http://fonts.googleapis.com/css?family=Raleway);
 // overrides here
 @primary: #000;
+@font-base:'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+@font-head:'Trebuchet MS', Arial, sans-serif;
 
 body{
-    background-color: @primary;
+    font-family: @font-base;
+    background-color: #ffff;
 }
+
+h1,
+h2,
+h3 {
+    font-family: @font-head;
+}
+
 h2{
-    background-color: green;
+    color: #67C3A4;
 }
-// Use as-is
-.masthead {
-  background-color: @brand-primary;
+
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2,
+  h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
 }
-// ...
