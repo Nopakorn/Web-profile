@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/Nopakorn/Web-profile/issues"
   },
-  "homepage": "https://github.com/Nopakorn/Web-profile#readme"
+  "homepage": "https://github.com/Nopakorn/Web-profile#readme",
+
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.3",
+    "serve-static": "^1.10.0",
+  }
 }
