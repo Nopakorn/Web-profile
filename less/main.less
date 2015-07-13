@@ -8,6 +8,8 @@
 @primary: #000;
 @font-base:'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 @font-head:'Trebuchet MS', Arial, sans-serif;
+@heighDrawingspace: 400px;
+
 
 body{
     font-family: @font-base;
@@ -27,14 +29,30 @@ h2{
 @media screen and (max-width: 420px) {
   h1 {
     font-size: 24px;
+
   }
 
   h2,
   h3 {
     font-size: 16px;
+
   }
 
   p {
     font-size: 14px;
+  }
+
+  .social-icons{
+    .social-icons-mixin(28px);
+  }
+  .fb-icon{
+    .social-icons-mixin(28px - 8px);
+  }
+  .gg-icon{
+    .social-icons-mixin(28px - 8px);
+  }
+
+  .drawing-space{
+     height: @heighDrawingspace/2;
   }
 }

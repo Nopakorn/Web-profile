@@ -62,3 +62,24 @@
    height: 400px;
 }
 
+.social-icons-mixin(@size){
+    width: @size;
+    height: @size;
+}
+
+.social-icons{
+  .social-icons-mixin(38px);
+}
+
+.fb-icon{
+  .social-icons-mixin(38px - 8px);
+}
+.gg-icon{
+  .social-icons-mixin(38px - 8px);
+}
+
+
+ul{
+  text-align: center;
+  padding: 0px;
+}
