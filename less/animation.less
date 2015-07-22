@@ -6,6 +6,11 @@
   -moz-animation-delay:@dura2;
 }
 
+.content-ani-mixin(){
+    .animate-mixin(0.75s, 0s);
+}
+
+
 .trigger__info--arrow{
     .animate-mixin(0.5s, 0.5s);
 }
@@ -13,8 +18,18 @@
 .social-ic{
     .animate-mixin(1s, 0.5s);
 }
-
+//content
 .intro-self{
-    .animate-mixin(0.75s, 0s);
+    .content-ani-mixin;
 }
+.about-me{
+    .content-ani-mixin;
+}
+.work-ex{
+    .content-ani-mixin;
+}
+
+
+
+
 
